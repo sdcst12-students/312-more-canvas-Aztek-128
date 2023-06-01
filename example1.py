@@ -9,6 +9,7 @@ import time
 w = tk.Tk()
 w.geometry("600x400")
 w.title("sample")
+w.attributes('-topmost',True)
 
 c = tk.Canvas(width=550,height=450,background="#cccccc",bd="2")
 c.pack()
