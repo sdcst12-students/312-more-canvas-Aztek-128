@@ -18,8 +18,8 @@ f = open('map1.txt')
 data = f.read()
 data = list(data)
 for i in data:
-    ix = 0 * i[0]
-    ix2 = 0 * i[1]
+    ix = x * i[0]
+    ix2 = xi * i[1]
     x = 0
     y = 0
     xi = x + 25
