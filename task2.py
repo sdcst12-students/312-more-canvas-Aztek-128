@@ -37,7 +37,7 @@ water = tk.PhotoImage(file="assets/map.water.png")
 plains = tk.PhotoImage(file="assets/map.plains.png")
 forest = tk.PhotoImage(file="assets/map.forest.png")
 hills = tk.PhotoImage(file="assets/map.hills.png")
-mountains = tk.PhotoImage(file="assets/map.mountains.png")
+mountains = tk.PhotoImage(file="assets/map.mountain.png")
 swamp = tk.PhotoImage(file="assets/map.swamp.png")
 city = tk.PhotoImage(file="assets/map.city.png")
 c.create_rectangle(20,20,30,30,fill='green')
@@ -55,7 +55,7 @@ for i in data:
         print(i) 
         c.create_image(20*x,20*y,image = water)
     if i == "1":
-        c.create_image
+        c.create_image(20*x,20*y, image = plains)
     
 
 w.mainloop()
